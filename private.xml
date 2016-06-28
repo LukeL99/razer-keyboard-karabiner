@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Volume to Razer Mappings</name>
+		<appendix>F1 to Mute, F2 to Volume Down, F3 to Volume Up</appendix>
+		<identifier>razer-volume</identifier>
+		<autogen>__KeyToKey__ KeyCode::F1, ConsumerKeyCode::VOLUME_MUTE</autogen>
+		<autogen>__KeyToKey__ KeyCode::F2, ConsumerKeyCode::VOLUME_DOWN</autogen>
+		<autogen>__KeyToKey__ KeyCode::F3, ConsumerKeyCode::VOLUME_UP</autogen>
+	</item>
+	
+	<item>
+		<name>Play Buttons to Razer Mappings</name>
+		<appendix>F5 to Last Track, F6 to Play/Pause, F7 to Next Track</appendix>
+		<identifier>razer-play</identifier>
+		<autogen>__KeyToKey__ KeyCode::F5, ConsumerKeyCode::MUSIC_PREV</autogen>
+		<autogen>__KeyToKey__ KeyCode::F6, ConsumerKeyCode::MUSIC_PLAY</autogen>
+		<autogen>__KeyToKey__ KeyCode::F7, ConsumerKeyCode::MUSIC_NEXT</autogen>
+	</item>
+
+	<item>
+		<name>Brightness Buttons to F11/F12</name>
+		<appendix>F11 to Lower Brightness, F12 to Raise Brightness</appendix>
+		<identifier>razer-brightness</identifier>
+		<autogen>__KeyToKey__ KeyCode::F11, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
+		<autogen>__KeyToKey__ KeyCode::F12, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
+	</item>
+</root>
+
